@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #131313;
+    color: #525252;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.sayfa {
+    width: 960px;
+    margin:0  auto;
+}
+
+.ust {
+    background: #232323;
+}
+
+#logo {
+    float: left;
+    width: 260px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+#logo h1 a {
+    font-family: Georgia;
+    text-decoration: none;
+    color: #DBDBDB;
+    letter-spacing: 3px;
+}
+
+#logo p {
+    color: #DBDBDB;
+    font-family: Georgia;
+    margin-left: 3px;
+    margin-top: 0;
+    padding-top: 0;
+    letter-spacing: 2px;
+}
+
+#menu {
+    float: right;
+    width: 650px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-size: 13px;
+    text-align: right;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 35px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Verdana;
+    color: #DBDBDB;
+}
+
+.orta {
+    margin-top: 20px;
+}
+
+.orta-sol {
+    width: 500px;
+    float: left;
+}
+.orta-sol img{
+    width: 475px;
+    height: 575px;
+}
+.orta-sag {
+    width: 400px;
+    float: right;
+    height: 400px;
+    background: #FDC609;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+.orta-sag img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+
+}
+
+.orta-resim {
+    margin: 0 25px;
+}
+
+.card {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+
+.card:nth-child(3) {
+    margin-right: 0;
+}
+
+.card h1 {
+    border-bottom: 1px dotted white;
+    padding-bottom: 15px;
+}
+.card img {
+    width: 100px;
+    height: 120px;
+}
+
+.button a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fdc609;
+    background-color: #232323;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.imgphoto{
+display:flex;
+justify-content:left;
+width:10px;
+
+}
+.fon{
+    font-family: sans-serif;
+    font-size: 18px;
+}
