@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background: #131313;
-    color: #525252;
+    background: linear-gradient(0deg, rgb(240, 216, 216) ,rgb(130, 183, 235) );
+    color: #2b2a2a;
     font-family: verdana, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -17,11 +17,12 @@ body {
 }
 
 .ust {
-    background: #232323;
+    background: rgb(91, 158, 224);
+    display: flex;
+    border-radius: 5px;
 }
 
 #logo {
-    float: left;
     width: 260px;
     margin-top: 7px;
     margin-left: 10px;
@@ -51,11 +52,12 @@ body {
 }
 
 #menu {
-    float: right;
+    display: flex;
+    justify-content: center;
     width: 650px;
     margin: 30px 0 0 0;
     padding: 0;
-    font-size: 13px;
+    font-size: 15px;
     text-align: right;
 }
 
@@ -63,6 +65,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 #menu ul li {
@@ -72,18 +75,20 @@ body {
 
 #menu ul li a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 19px;
     font-family: Verdana;
-    color: #DBDBDB;
+    color: rgb(240, 216, 216);
+    
 }
 
 .orta {
     margin-top: 20px;
+    display: flex;
 }
 
 .orta-sol {
     width: 500px;
-    float: left;
+    
 }
 .orta-sol img{
     width: 475px;
@@ -91,9 +96,10 @@ body {
 }
 .orta-sag {
     width: 400px;
-    float: right;
+  
     height: 400px;
-    background: #FDC609;
+   
+    background: linear-gradient(0deg, rgb(240, 216, 216) ,rgb(130, 183, 235) );
     padding: 10px;
     margin-right: 25px;
 }
@@ -102,16 +108,19 @@ body {
     width: 100px;
     height: 100px;
     margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 
 }
 
 .orta-resim {
     margin: 0 25px;
+    display: flex;
 }
 
 .card {
     width: 300px;
-    float: left;
+   
     margin-right: 30px;
 }
 
@@ -131,8 +140,8 @@ body {
 .button a {
     display: inline-block;
     padding: 10px 15px;
-    color: #fdc609;
-    background-color: #232323;
+    color: black;
+    background-color: #faebd7;
     text-decoration: none;
 }
 
@@ -149,4 +158,24 @@ width:10px;
 .fon{
     font-family: sans-serif;
     font-size: 18px;
+}
+
+.elaqe {
+    margin-top: 20px;
+    margin-left: 20px ;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    
+}
+.elaqe li {
+    list-style-type: none;
+    font-size: 15px;
+    font-family: ;
+}
+.elaqe li img {
+    max-width: 1%;
+    height: auto;
+}
+.icerik {
+    display: flex;
 }
