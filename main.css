@@ -3,17 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background: linear-gradient(0deg, rgb(240, 216, 216) ,rgb(130, 183, 235) );
+    background: linear-gradient(0deg, rgb(240, 216, 216), rgb(130, 183, 235));
     color: #2b2a2a;
     font-family: verdana, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     font-size: 12px;
 }
+
 .sayfa {
     width: 960px;
-    margin:0  auto;
+    margin: 0 auto;
 }
 
 .ust {
@@ -65,7 +67,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    
+
 }
 
 #menu ul li {
@@ -78,12 +80,13 @@ body {
     font-size: 19px;
     font-family: Verdana;
     color: white;
-    
+
 }
- #menu :hover {
+
+#menu :hover {
     color: rgb(240, 216, 216);
     transition: 0.5s;
- }
+}
 
 
 .orta {
@@ -93,18 +96,20 @@ body {
 
 .orta-sol {
     width: 500px;
-    
+
 }
-.orta-sol img{
+
+.orta-sol img {
     width: 475px;
     height: 575px;
 }
+
 .orta-sag {
-    width: 400px;
-  
-    height: 400px;
-   
-    background: linear-gradient(0deg, rgb(240, 216, 216) ,rgb(130, 183, 235) );
+    width: 500px;
+
+    height: 576px;
+
+    background: linear-gradient(0deg, rgb(240, 216, 216), rgb(130, 183, 235));
     padding: 10px;
     margin-right: 25px;
 }
@@ -125,7 +130,7 @@ body {
 
 .card {
     width: 300px;
-   
+
     margin-right: 30px;
 }
 
@@ -137,6 +142,7 @@ body {
     border-bottom: 1px dotted white;
     padding-bottom: 15px;
 }
+
 .card img {
     width: 100px;
     height: 120px;
@@ -154,13 +160,14 @@ body {
     clear: both;
 }
 
-.imgphoto{
-display:flex;
-justify-content:left;
-width:10px;
+.imgphoto {
+    display: flex;
+    justify-content: left;
+    width: 10px;
 
 }
-.fon{
+
+.fon {
     font-family: sans-serif;
     font-size: 18px;
 }
@@ -170,19 +177,22 @@ width:10px;
     background-color: rgb(61, 61, 61);
     width: 100%;
     color: white;
-    height: 400px; 
+    height: 400px;
 }
+
 .elaqe li {
     list-style-type: none;
     font-size: 15px;
-    
-}
-.linkler li img {
-    max-width: 2%;
-    height: auto;
-   
 
 }
+
+.linkler li img {
+    max-width: 3%;
+    height: auto;
+
+
+}
+
 .icerik {
     display: flex;
 }
@@ -191,33 +201,51 @@ a {
     color: inherit;
     font: inherit;
     text-decoration: none;
-    
+
 }
 
 a:hover {
- color:  rgb(240, 216, 216);
- transition: 0.5s;
+    color: rgb(240, 216, 216);
+    transition: 0.5s;
 }
-.sortlar{
+
+.sortlar {
     padding: 2px;
 }
-.sortlar ul li {
+
+.sortlar h3{
+    margin-left: 15px;
+}
+
+.sortlar ul {
     margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 165px;
+    display: flex;
+}
+
+.sortlar-ul{
+    margin-top: 15px;
+}
+.sortlar li {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+
 }
 
 .linkler {
     padding: 15px;
 }
+
 .linkler ul li {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
     display: flex;
 }
-.linkler ul li p{
+
+.linkler ul li p {
     text-align: center;
+
 }
 
 .sagalt ul {
@@ -228,14 +256,18 @@ a:hover {
     display: flex;
     margin-right: 155px;
     margin-top: 15px;
+    margin-left: 95px;
 
 }
+
 .ara {
     margin-left: 25px;
 }
+
 .altp {
     margin-top: 65px;
 }
+
 .eyniolcu {
     display: flex;
     align-items: center;
@@ -251,12 +283,50 @@ a:hover {
     justify-content: center;
     list-style-type: none;
 }
-.yoxol img{
+
+.yoxol img {
     transition: 1s;
     filter: grayscale();
 }
-.yoxol img:hover{
+
+.yoxol img:hover {
     transform: scale(1.1);
     filter: none;
     border: 4px solid whitesmoke;
+}
+
+.detallar {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+
+}
+
+.xarakterler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.xarakter {
+    margin: 10px;
+
+}
+
+.row {
+    display: flex;
+
+}
+
+.col {
+    width: 45px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #ccc;
+    margin: 5px 2px;
+}
+
+.col-full {
+    background-color: #6e5ce8;
 }
