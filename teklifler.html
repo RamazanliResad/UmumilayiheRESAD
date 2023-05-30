@@ -41,19 +41,19 @@
             <div class="umumisorgu">
                 <label class="sorgu">
                     <p class="sorgu-title">Ad</p>
-                    <input type="text" class="sorgu-input">
+                    <input type="text" name="ad" class="sorgu-input">
                 </label>
                 <label class="sorgu">
                     <p class="sorgu-title">Soyad</p>
-                    <input type="text" class="sorgu-input">
+                    <input type="text" name="soyad" class="sorgu-input">
                 </label>
                 <label class="sorgu">
                     <p class="sorgu-title">Ata Adı</p>
-                    <input type="text" class="sorgu-input">
+                    <input type="text" name="ata_adi" class="sorgu-input">
                 </label>
                 <label class="sorgu">
                     <p class="sorgu-title">E-mail ünvanı</p>
-                    <input type="text" class="sorgu-input">
+                    <input type="text" name="email" class="sorgu-input">
                 </label>
                 <label class="sorgu">
                     <p class="sorgu-title">Mobil nömrə</p>
@@ -68,7 +68,7 @@
                             <option value="">099</option>
                             <option value="">010</option>
                         </select>
-                        <input type="text" class="sorgu-input">
+                        <input type="text"  name="mobil" class="sorgu-input">
                     </div>
                 </label>
             </div>
@@ -79,9 +79,9 @@
                     <p class="sorgu-title">Seçin</p>
                     <div class="sorgu-novu">
                         <select name="" id="">
-                            <option value="">Təklif</option>
-                            <option value="">Müraciət</option>
-                            <option value="">Sorğu</option>
+                            <option value="teklif">Təklif</option>
+                            <option value="muraciet">Müraciət</option>
+                            <option value="sorgu">Sorğu</option>
                         </select>
                     </div>
                 </label>
@@ -92,9 +92,9 @@
                     <p class="sorgu-title">Seçin</p>
                     <div class="sorgu-mezmunu">
                         <select name="" id="">
-                            <option value="">Köməklə bağlı</option>
-                            <option value="">Fikirləriniz</option>
-                            <option value="">Məktubunuz</option>
+                            <option value="komek">Köməklə bağlı</option>
+                            <option value="fikir">Fikirləriniz</option>
+                            <option value="mektubx">Məktubunuz</option>
                         </select>
                     </div>
                 </label>
@@ -155,7 +155,31 @@
             </div>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBS5e-N47QLRuNKk1dCAgjABAMvq_BcUp4",
+          authDomain: "umumilayiheresad-9472c.firebaseapp.com",
+          databaseURL: "https://umumilayiheresad-9472c-default-rtdb.firebaseio.com",
+          projectId: "umumilayiheresad-9472c",
+          storageBucket: "umumilayiheresad-9472c.appspot.com",
+          messagingSenderId: "93573250509",
+          appId: "1:93573250509:web:7efeacf4451e08002f5884",
+          measurementId: "G-Q17G7FP87N"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+      <script src="main.js"></script>
 </body>
 
 </html>
