@@ -579,3 +579,26 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
         transform: scaleX(0.7);
     }
 }
+
+.orta-sag img:hover {
+    transform: scale(1.1);
+    filter: none;
+    border: 4px solid whitesmoke;
+
+}
+
+.orta-sag img {
+    transition: 1s;
+   
+}
+
+.icerik img:hover {
+    transform: scale(1.1);
+    filter: none;
+    border: 4px solid whitesmoke;
+}
+.icerik img {
+    transition: 1s;
+}
+
+
